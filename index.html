@@ -7,20 +7,24 @@
 
     <title>Tech Store</title>
 
-    
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+  
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+   
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
 
             <a class="navbar-brand fw-bold" href="#">
+                <i class="bi bi-cpu-fill"></i>
                 TECH STORE
             </a>
 
@@ -39,24 +43,28 @@
 
                     <li class="nav-item">
                         <a class="nav-link active" href="#">
+                            <i class="bi bi-house-fill"></i>
                             Início
                         </a>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link" href="#produtos">
+                            <i class="bi bi-pc-display"></i>
                             Produtos
                         </a>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link" href="#promocoes">
+                            <i class="bi bi-tags-fill"></i>
                             Promoções
                         </a>
                     </li>
 
                     <li class="nav-item">
                         <a class="nav-link" href="#contato">
+                            <i class="bi bi-envelope-fill"></i>
                             Contato
                         </a>
                     </li>
@@ -69,29 +77,36 @@
     </nav>
 
 
-    
+ 
     <header class="hero">
 
         <div class="container text-center">
 
-
             <h1 class="display-3 fw-bold">
-            
+                <i class="bi bi-cpu-fill"></i>
+                TECH STORE
             </h1>
 
-          
-
+            <p class="lead">
+                Tecnologia, qualidade e os melhores preços para você!
+            </p>
 
             <div class="mt-4">
 
                 <a href="#produtos"
-                    class="btn btn-light btn-lg">
+                    class="btn btn-light btn-lg me-2">
+
+                    <i class="bi bi-cart-fill"></i>
                     Comprar Agora
+
                 </a>
 
                 <a href="#promocoes"
                     class="btn btn-outline-light btn-lg">
+
+                    <i class="bi bi-info-circle-fill"></i>
                     Saiba Mais
+
                 </a>
 
             </div>
@@ -101,14 +116,15 @@
     </header>
 
 
+  
     <main class="container py-5">
 
 
-
-        <!-- ALERTAS -->
+       
         <section class="mb-5">
 
             <h2 class="text-center mb-4">
+                <i class="bi bi-bell-fill"></i>
                 Avisos
             </h2>
 
@@ -116,8 +132,12 @@
 
                 <div class="col-md-6">
 
-                    <div class="alert alert-success" >
-         Produto cadastrado com sucesso!
+                    <div class="alert alert-success">
+
+                        <i class="bi bi-check-circle-fill"></i>
+
+                        Produto cadastrado com sucesso!
+
                     </div>
 
                 </div>
@@ -125,7 +145,11 @@
                 <div class="col-md-6">
 
                     <div class="alert alert-info">
+
+                        <i class="bi bi-info-circle-fill"></i>
+
                         Novas ofertas disponíveis!
+
                     </div>
 
                 </div>
@@ -133,7 +157,11 @@
                 <div class="col-md-6">
 
                     <div class="alert alert-warning">
+
+                        <i class="bi bi-exclamation-triangle-fill"></i>
+
                         Últimas unidades em estoque!
+
                     </div>
 
                 </div>
@@ -141,7 +169,11 @@
                 <div class="col-md-6">
 
                     <div class="alert alert-danger">
-                         Indisponível.
+
+                        <i class="bi bi-x-circle-fill"></i>
+
+                        Indisponível.
+
                     </div>
 
                 </div>
@@ -151,46 +183,58 @@
         </section>
 
 
-        <!-- BOTÕES -->
+     
         <section class="text-center mb-5">
 
-        
+            <h2 class="mb-4">
+                <i class="bi bi-ui-checks"></i>
+                Botões
+            </h2>
 
-            <div class="d-flex flex-wrap justify-content-center">
+            <div class="d-flex flex-wrap justify-content-center gap-2">
 
                 <button class="btn btn-primary">
+                    <i class="bi bi-check-lg"></i>
                     Primary
                 </button>
 
                 <button class="btn btn-secondary">
+                    <i class="bi bi-gear-fill"></i>
                     Secondary
                 </button>
 
                 <button class="btn btn-success">
+                    <i class="bi bi-check-circle-fill"></i>
                     Success
                 </button>
 
                 <button class="btn btn-danger">
+                    <i class="bi bi-trash-fill"></i>
                     Danger
                 </button>
 
                 <button class="btn btn-warning">
+                    <i class="bi bi-exclamation-triangle-fill"></i>
                     Warning
                 </button>
 
                 <button class="btn btn-info">
+                    <i class="bi bi-info-circle-fill"></i>
                     Info
                 </button>
 
                 <button class="btn btn-dark">
+                    <i class="bi bi-moon-fill"></i>
                     Dark
                 </button>
 
                 <button class="btn btn-outline-primary">
+                    <i class="bi bi-star-fill"></i>
                     Outline Primary
                 </button>
 
                 <button class="btn btn-outline-success">
+                    <i class="bi bi-check-lg"></i>
                     Outline Success
                 </button>
 
@@ -199,16 +243,15 @@
         </section>
 
 
-        <!-- PRODUTOS -->
+      
         <section id="produtos">
 
             <div class="d-flex justify-content-between align-items-center mb-4">
 
                 <h2>
+                    <i class="bi bi-bag-fill"></i>
                     Nossos produtos
                 </h2>
-
-    
 
             </div>
 
@@ -216,29 +259,36 @@
             <div class="row g-4">
 
 
-                <!-- PRODUTO 1 -->
+          
                 <div class="col-12 col-md-6 col-lg-4">
 
                     <div class="card h-100">
 
                         <div class="card-body">
+
+                            <div class="text-center mb-3">
+                                <i class="bi bi-laptop display-3"></i>
+                            </div>
 
                             <h5 class="card-title">
                                 Notebook Gamer
                             </h5>
 
                             <p class="card-text">
-                                Notebook para jogos Vortex 5 7430u 16 GB 512 GB SSD Win11 Pro.
+                                Notebook para jogos Vortex 5 7430U,
+                                16 GB de RAM, 512 GB SSD e Windows 11 Pro.
                             </p>
 
-                          <p>R$ 3599,00</p>
-
-                          
-
-                            <br>
+                            <p class="fw-bold fs-4">
+                                R$ 3.599,00
+                            </p>
 
                             <button class="btn btn-primary">
+
+                                <i class="bi bi-eye-fill"></i>
+
                                 Ver Produto
+
                             </button>
 
                         </div>
@@ -248,31 +298,36 @@
                 </div>
 
 
-                
+            
                 <div class="col-12 col-md-6 col-lg-4">
 
                     <div class="card h-100">
 
-                  
-
                         <div class="card-body">
+
+                            <div class="text-center mb-3">
+                                <i class="bi bi-mouse-fill display-3"></i>
+                            </div>
 
                             <h5 class="card-title">
                                 Mouse Gamer
                             </h5>
 
                             <p class="card-text">
-                                Mouse Gamer Dual-mode 2.4g Bluetooth 1600 Dpi Estampa Vortex
+                                Mouse Gamer Dual-mode 2.4G,
+                                Bluetooth, 1600 DPI e estampa Vortex.
                             </p>
 
-                          <p>R$ 65,89</p>
-
-                
-
-                            <br>
+                            <p class="fw-bold fs-4">
+                                R$ 65,89
+                            </p>
 
                             <button class="btn btn-primary">
+
+                                <i class="bi bi-eye-fill"></i>
+
                                 Ver Produto
+
                             </button>
 
                         </div>
@@ -282,31 +337,36 @@
                 </div>
 
 
-                
+              
                 <div class="col-12 col-md-6 col-lg-4">
 
                     <div class="card h-100">
 
-            
-
                         <div class="card-body">
 
+                            <div class="text-center mb-3">
+                                <i class="bi bi-display-fill display-3"></i>
+                            </div>
+
                             <h5 class="card-title">
-                                Monitor 
+                                Monitor
                             </h5>
 
                             <p class="card-text">
-                              Monitor Vortex" LED HD Gamer para Jogos e Trabalho
+                                Monitor Vortex LED HD Gamer
+                                para jogos e trabalho.
                             </p>
 
-                          <p>R$ 361,29</p>
-
-                  
-
-                            <br>
+                            <p class="fw-bold fs-4">
+                                R$ 361,29
+                            </p>
 
                             <button class="btn btn-primary">
+
+                                <i class="bi bi-eye-fill"></i>
+
                                 Ver Produto
+
                             </button>
 
                         </div>
@@ -320,30 +380,34 @@
         </section>
 
 
-                                  
-
-
         
         <section id="promocoes" class="my-5">
 
             <div class="p-5 bg-secondary rounded text-center"
-              style=" background-color: gray">
+                style="background-color: gray">
 
-                <span class="badge bg-sucess mb-2">
+                <span class="badge bg-success mb-2">
+
+                    <i class="bi bi-tag-fill"></i>
+
                     PROMOÇÃO
+
                 </span>
 
                 <h2>
-                PROMOÇÕES E OFERTAS IMPERDIVEIS!
+                    PROMOÇÕES E OFERTAS IMPERDÍVEIS!
                 </h2>
 
                 <p>
-                  Seção Limitada de nossos produtos!
-                  
+                    Seção limitada de nossos produtos!
                 </p>
 
                 <button class="btn btn-info">
+
+                    <i class="bi bi-fire"></i>
+
                     Confira já!
+
                 </button>
 
             </div>
@@ -353,30 +417,34 @@
     </main>
 
 
-    <!-- FOOTER -->
+  
     <footer id="contato"
         class="bg-dark text-white"
-      style="background-color:#8A00C4">
-    
+        style="background-color:#8A00C4;">
 
-        <div class="container">
+        <div class="container py-4">
 
             <h5>
+                <i class="bi bi-cpu-fill"></i>
                 Tech Store
             </h5>
 
             <p class="mb-1">
+                <i class="bi bi-instagram"></i>
                 ®TechStore_official
             </p>
 
-          
+            <p class="mb-0">
+                <i class="bi bi-envelope-fill"></i>
+                Entre em contato conosco!
+            </p>
 
         </div>
 
     </footer>
 
 
-    
+   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js">
     </script>
 
